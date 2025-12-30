@@ -1,4 +1,4 @@
-macro_rules! my_macro {
+macro_rules! vel {
     () => {
         println!("Check out my macro!");
     };
@@ -6,5 +6,5 @@ macro_rules! my_macro {
 
 fn main() {
     // TODO: Fix the macro call.
-    my_macro();
+    vel!();
 }
